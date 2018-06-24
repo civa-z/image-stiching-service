@@ -19,5 +19,5 @@ import imageservice
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	url(r'^image/', imageservice.on_request),
+	url(r'^image/*', imageservice.on_request),
 ]
